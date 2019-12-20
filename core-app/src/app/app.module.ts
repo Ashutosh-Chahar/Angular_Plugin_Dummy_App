@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { COMPILER_OPTIONS,CompilerFactory,Compiler,NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Required by the SystemJS
