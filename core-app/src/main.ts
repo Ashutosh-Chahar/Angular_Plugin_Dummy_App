@@ -3,7 +3,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-declare const SystemJS;
+import { SystemJS } from "../node_modules/systemjs/dist/system";
+// declare const SystemJS;
+
 import * as angularCore from '@angular/core';
 import * as angularCommon from '@angular/common';
 SystemJS.set('@angular/core', SystemJS.newModule(angularCore));
